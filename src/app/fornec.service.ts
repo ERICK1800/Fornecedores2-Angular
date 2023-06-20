@@ -8,7 +8,7 @@ import { Fornec } from './fornecedores';
 })
 export class FornecService {
 
-  url = "http://localhost:3000/fornecedores";
+  url = "http://localhost:8080/fornecedores";
 
   constructor(private http: HttpClient) { }
 
